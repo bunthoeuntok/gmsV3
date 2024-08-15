@@ -1,0 +1,29 @@
+@mixin rwd1270 {
+    @media(max-width:1270px){
+        @content;
+    }
+}
+
+@mixin rwd1200 {
+    @media(max-width:1200px){
+        @content;
+    }
+}
+
+@mixin rwd992 {
+    @media(max-width:992px){
+        @content;
+    }
+}
+
+@mixin rwd768 {
+    @media(max-width:768px){
+        @content;
+    }
+}
+
+@mixin rwd576 {
+    @media(max-width:576px){
+        @content;
+    }
+}
